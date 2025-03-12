@@ -1,0 +1,56 @@
+
+  hr{
+    color: yellow;
+    height: 20px;
+    background-color: yellow;
+  }
+
+  #navbar{
+    background-color: rgb(201, 184, 184);
+  }
+
+  .botao{
+    display: flex;
+
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+
+main{
+    background: url(transferir) no-repeat center center;
+    background-size: cover;
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    background-color: rgb(201, 184, 184);
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
