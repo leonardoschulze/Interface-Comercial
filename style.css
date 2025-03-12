@@ -9,11 +9,6 @@
     background-color: rgb(201, 184, 184);
   }
 
-  .botao{
-    display: flex;
-
-  }
-
   *{
     margin: 0;
     padding: 0;
@@ -53,4 +48,34 @@ main{
     letter-spacing: 3px;
     margin-left: 32px;
 
+}
+
+.flex{
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  gap: 50px;
+
+}
+
+.amarela{
+  background-color: blue;
+  padding: 100px;
+  margin: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
